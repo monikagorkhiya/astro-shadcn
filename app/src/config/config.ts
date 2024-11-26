@@ -26,7 +26,7 @@ export const configData: Config = {
 		'Improwised is a design and development agency that specializes in creating beautiful and functional websites.',
 	ogImage: '/og.jpg',
 	logo: {
-		src: '/logo.png',
+		src: import.meta.env.BASE_URL +'/logo.png',
 		alt: 'Improwised logo'
 	},
 	canonical: true,

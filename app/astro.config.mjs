@@ -7,11 +7,12 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://www.improwised.com/",
+  site: "https://monikagorkhiya.github.io/astro-shadcn/",
   integrations: [
     tailwind(),
     icon(),
     sitemap(),
+
     partytown({
       config: {
         forward: ["dataLayer.push"],

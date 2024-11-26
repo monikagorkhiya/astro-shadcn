@@ -7,7 +7,8 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://monikagorkhiya.github.io/",
+  site: "https://monikagorkhiya.github.io/astro-shadcn/",
+  site: 'https://astronaut.github.io',
   base: 'astro-shadcn',
   integrations: [
     tailwind(),
